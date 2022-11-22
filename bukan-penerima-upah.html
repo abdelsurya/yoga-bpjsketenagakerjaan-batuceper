@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdel Surya | BPJamsostek</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="shortcut icon" href="img/tabicon.png" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/gotham" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+</head>
+
+<body id="beranda">
+    <!-- NAVBAR AWAL -->
+    <nav class="navbar navbar-expand-lg bd-navbar fixed-top shadow-sm" style="background-color: white">
+        <div class="container-lg">
+            <a href="index.html"><img src="/img/logo-bpjamsostek-color.svg" alt="logo-navbar" width="200"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link btn-navbar" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item dropdown btn-navbar">
+                        <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Informasi Kepesertaan
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="penerima-upah.html">Penerima upah</a></li>
+                            <li><a class="dropdown-item" href="bukan-penerima-upah.html">Bukan Penerima
+                                    Upah</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-navbar" href="berita.html">Berita</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-navbar" href="tentang-kami.html">Tentang Kami</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-navbar" href="kontak.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR AKHIR -->
+
+    <!-- CAROUSEL AWAL -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active" style="left: 0px;">
+                <img src="img/banner-bpu.jpg" class="web-carousel" alt="banner-pu" style="width: 100%;">
+                <img src="img/banner-bpu-mobile.jpg" class="mobile-carousel" alt="banner-pu-mobile"
+                    style="width: 100%;">
+            </div>
+        </div>
+    </div>
+    <!-- CAROUSEL AKHIR -->
+
+    <!-- MANFAAT BPU AWAL -->
+    <section>
+        <div class="container-lg mt-5">
+            <div class="row text-center">
+                <div class="col">
+                    <h2>Manfaat Bukan Penerima Upah</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="accordion accordion-flush" id="manfaat-bpu">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="jht">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse-jht" aria-expanded="false"
+                                    aria-controls="flush-collapse-jht"> <img src="img/product-icon-jaminan-jht.svg"
+                                        alt="jaminan-hari-tua">
+                                    Jaminan Hari Tua (JHT)
+                                </button>
+                            </h2>
+                            <div id="flush-collapse-jht" class="accordion-collapse collapse" aria-labelledby="jht"
+                                data-bs-parent="#jht">
+                                <div class="accordion-body">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="deskripsi-jht">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse-deskripsi-jht"
+                                                aria-expanded="false" aria-controls="flush-collapse-deskripsi-jht">
+                                                Deskripsi
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse-deskripsi-jht" class="accordion-collapse collapse"
+                                            aria-labelledby="deskripsi-jht" data-bs-parent="#deskripsi-jht">
+                                            <div class="accordion-body">Program perlindungan yang diselenggarakan dengan
+                                                tujuan untuk menjamin agar peserta menerima uang tunai apabila memasuki
+                                                masa pensiun, mengalami cacat total tetap, atau meninggal dunia.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="bentuk-jht">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse-bentuk-jht"
+                                                aria-expanded="false" aria-controls="flush-collapse-bentuk-jht">
+                                                Bentuk Manfaat
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse-bentuk-jht" class="accordion-collapse collapse"
+                                            aria-labelledby="bentuk-jht" data-bs-parent="#bentuk-jht">
+                                            <div class="accordion-body">
+                                                Manfaat berupa uang tunai yang besarnya adalah akumulasi seluruh iuran
+                                                yang telah dibayarkan ditambah dengan hasil pengembangannya.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="manfaat-jht">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse-manfaat-jht"
+                                                aria-expanded="false" aria-controls="flush-collapse-manfaat-jht">
+                                                Manfaat Lengkap
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse-manfaat-jht" class="accordion-collapse collapse"
+                                            aria-labelledby="manfaat-jht" data-bs-parent="#manfaat-jht">
+                                            <div class="accordion-body">
+                                                <h6>Uang tunai yang dibayarkan :</h6>
+                                                <ol type="1">
+                                                    <li>Sekaligus apabila peserta :</li>
+                                                    <ol type="a">
+                                                        <li>mencapai usia 56 tahun;</li>
+                                                        <li>berhenti bekerja karena mengundurkan diri dan sedang tidak
+                                                            aktif bekerja dimanapun;</li>
+                                                        <li>terkena pemutusan hubungan kerja, dan sedang tidak aktif
+                                                            bekerja dimanapun;</li>
+                                                        <li>meninggalkan wilayah Indonesia untuk selamanya;</li>
+                                                        <li>cacat total tetap; atau</li>
+                                                        <li>meninggal dunia.</li>
+                                                    </ol>
+                                                    <li>Sebagian maksimal 10% dalam rangka persiapan memasuki masa
+                                                        pensiun atau maksimal 30% untuk kepemilikan rumah apabila
+                                                        peserta memiliki masa kepesertaan paling sedikit 10 tahun, dan
+                                                        hanya dapat diambil maksimal 1 kali.</li>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="jkk">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse-jkk" aria-expanded="false"
+                                    aria-controls="flush-collapse-jkk"> <img
+                                        src="img/product-icon-jaminan-kecelakaan.svg" alt="jaminan-kecelakaan-kerja">
+                                    Jaminan Kecelakaan Kerja (JKK)
+                                </button>
+                            </h2>
+                            <div id="flush-collapse-jkk" class="accordion-collapse collapse" aria-labelledby="jkk"
+                                data-bs-parent="#jkk">
+                                <div class="accordion-body">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="deskripsi-jkk">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse-deskripsi-jkk"
+                                                aria-expanded="false" aria-controls="flush-collapse-deskripsi-jkk">
+                                                Deskripsi
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse-deskripsi-jkk" class="accordion-collapse collapse"
+                                            aria-labelledby="deskripsi-jkk" data-bs-parent="#deskripsi-jkk">
+                                            <div class="accordion-body">Manfaat berupa uang tunai dan/atau pelayanan
+                                                kesehatan yang diberikan pada saat Peserta mengalami Kecelakaan Kerja
+                                                atau penyakit yang disebabkan oleh lingkungan kerja.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="bentuk-jkk">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse-bentuk-jkk"
+                                                aria-expanded="false" aria-controls="flush-collapse-bentuk-jkk">
+                                                Bentuk Manfaat
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse-bentuk-jkk" class="accordion-collapse collapse"
+                                            aria-labelledby="bentuk-jkk" data-bs-parent="#bentuk-jkk">
+                                            <div class="accordion-body">
+                                                Manfaat yang diterima oleh peserta adalah pelayanan kesehatan (perawatan
+                                                dan pengobatan) sesuai kebutuhan medis, dan santunan berupa uang.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="manfaat-jkk">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse-manfaat-jkk"
+                                                aria-expanded="false" aria-controls="flush-collapse-manfaat-jkk">
+                                                Manfaat Lengkap
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse-manfaat-jkk" class="accordion-collapse collapse"
+                                            aria-labelledby="manfaat-jkk" data-bs-parent="#manfaat-jkk">
+                                            <div class="accordion-body">
+                                                <ol type="1">
+                                                    <li>Pelayanan Kesehatan</li>
+                                                    <p>Pelayanan Kesehatan sesuai kebutuhan medis yang meliputi :</p>
+                                                    <ol type="a">
+                                                        <li>Pemeriksaan dasar dan penunjang.</li>
+                                                        <li>Perawatan tingkat pertama dan lanjutan.</li>
+                                                        <li>Rawat inap kelas I Rumah Sakit Pemerintah, Rumah Sakit
+                                                            Pemerintah Daerah, atau Rumah Sakit swasta yang setara.</li>
+                                                        <li>Perawatan intensif</li>
+                                                        <li>Penunjang diagnostik</li>
+                                                        <li>Penanganan, termasuk komorbiditas dan komplikasi yang
+                                                            berhubungan dengan kecelakaan kerja dan penyakit akibat
+                                                            kerja;</li>
+                                                        <li>Pelayanan khusus;</li>
+                                                        <li>Alat kesehatan dan implant;</li>
+                                                        <li>Jasa dokter / medis;</li>
+                                                        <li>Operasi;</li>
+                                                        <li>Pelayanan darah;</li>
+                                                        <li>Rehabilitasi medik;</li>
+                                                        <li>Perawatan di rumah (homecare) diberikan dengan ketentuan
+                                                            sebagai berikut:</li>
+                                                        <ol type="1">
+                                                            <li>Diberikan kepada peserta yang tidak memungkinkan
+                                                                melanjutkan pengobatan ke rumah sakit karena
+                                                                keterbatasan fisik dan/atau kondisi geografis;</li>
+                                                            <li>Diberikan berdasarkan rekomendasi dokter;</li>
+                                                            <li>Dilaksanakan oleh fasilitas kesehatan yang bekerjasama
+                                                                dengan BPJS Ketenagakerjaan;</li>
+                                                            <li>Diberikan maksimal 1 (satu) tahun dengan batasan biaya
+                                                                paling banyak sebesar Rp. 20.000.000,00 (dua puluh juta
+                                                                rupiah).</li>
+                                                        </ol>
+                                                        <li>Pemeriksaan diagnostik dalam penyelesaian kasus penyakit
+                                                            akibat kerja.</li>
+                                                    </ol>
+                                                    <li>Santunan berupa uang meliputi :</li>
+                                                    <ol type="a">
+                                                        <li>Penggantian biaya transportasi dengan rincian :</li>
+                                                        <ol type="1">
+                                                            <li>Transportasi darat, sungai atau danau maksimal sebesar
+                                                                Rp. 5.000.000,00 (lima juta rupiah);</li>
+                                                            <li>Transportasi laut maksimal sebesar Rp. 2.000.000,00 (dua
+                                                                juta rupiah);</li>
+                                                            <li>Transportasi udara maksimal sebesar Rp. 10.000.000,00;
+                                                                dan</li>
+                                                            <li>Jika menggunakan lebih dari 1 (satu) angkutan maka
+                                                                berhak atas biaya paling banyak dari masing-masing
+                                                                angkutan yang digunakan.</li>
+                                                        </ol>
+                                                        <li>Santunan sementara tidak mampu bekerja (STMB) dengan rincian
+                                                            sebagai berikut :</li>
+                                                        <ol type="1">
+                                                            <li>6 (enam) bulan pertama diberikan sebesar 100% (seratus
+                                                                persen) dari upah;</li>
+                                                            <li>6 (enam) bulan kedua diberikan sebesar 100% (seratus
+                                                                persen) dari upah;</li>
+                                                            <li>6 (enam) bulan ketiga dan seterusnya diberikan sebesar
+                                                                50% (lima puluh persen) dari upah.</li>
+                                                        </ol>
+                                                        <li>Santunan Cacat, meliputi :</li>
+                                                        <ol type="1">
+                                                            <li>Cacat sebagian anatomis sebesar % sesuai tabel cacat x
+                                                                80 x upah sebulan;</li>
+                                                            <li>Cacat sebagian fungsi sebesar % berkurangnya fungsi x %
+                                                                sesuai tabel cacat x 80 x upah sebulan;</li>
+                                                            <li>Cacat total tetap sebesar 70% x 80 x upah sebulan.</li>
+                                                        </ol>
+                                                        <li>Santunan kematian sebesar 60% x 80 x upah sebulan, paling
+                                                            sedikit sebesar santunan kematian JKM.</li>
+                                                        <li>Biaya pemakaman sebesar Rp. 10.000.000,00.</li>
+                                                        <li>Santunan berkala diberikan jika peserta mengalami cacat
+                                                            total tetap atau meninggal dunia akibat kecelakaan kerja
+                                                            atau penyakit akibat kerja dan dibayarkan sekaligus sebesar
+                                                            Rp. 12.000.000 (dua belas juta rupiah).</li>
+                                                        <li>Rehabilitasi berupa alat bantu (orthose) dan/atau alat ganti
+                                                            (prothese) bagi peserta yang anggota badannya hilang atau
+                                                            tidak berfungsi akibat Kecelakaan Kerja untuk setiap kasus
+                                                            dengan patokan harga yang ditetapkan oleh Pusat Rehabilitasi
+                                                            Rumah Sakit Umum Pemerintah ditambah 40% (empat puluh
+                                                            persen) dari harga tersebut serta biaya rehabilitas medik.
+                                                        </li>
+                                                        <li>Penggantian biaya gigi tiruan maksimal Rp. 5.000.000,00
+                                                            (lima juta rupiah).</li>
+                                                        <li>Penggantian alat bantu dengar maksimal Rp. 2.500.000,00 (dua
+                                                            juta lima ratus ribu rupiah).</li>
+                                                        <li>Penggantian biaya kacamata maksimal Rp. 1.000.000,00 (satu
+                                                            juta rupiah).</li>
+                                                        <li>Beasiswa untuk paling banyak 2 (dua) orang anak peserta dan
+                                                            diberikan jika peserta mengalami cacat total tetap atau
+                                                            meninggal dunia akibat kecelakaan kerja atau penyakit akibat
+                                                            kerja dengan ketentuan sebagai berikut :</li>
+                                                        <ol type="1">
+                                                            <li>Diberikan berkala setiap tahun sesuai dengan tingkat
+                                                                pendidikan anak dengan rincian sebagai berikut :</li>
+                                                            <ol type="a">
+                                                                <li>Pendidikan TK sebesar Rp. 1.500.000,00/orang/tahun,
+                                                                    maksimal 2 (dua) tahun;</li>
+                                                                <li>Pendidikan SD/sederajat sebesar Rp.
+                                                                    1.500.000,00/orang/tahun, maksimal 6 (enam) tahun;
+                                                                </li>
+                                                                <li>Pendidikan SMP/sederajat sebesar Rp.
+                                                                    2.000.000,00/orang/tahun, maksimal 3 (tiga) tahun;
+                                                                </li>
+                                                                <li>Pendidikan SMA/sederajat sebesar Rp.
+                                                                    3.000.000,00/orang/tahun, maksimal 3 (tiga) tahun;
+                                                                </li>
+                                                                <li>Pendidikan tinggi maksimal Strata 1 (S1) atau
+                                                                    pelatihan sebesar Rp. 12.000.000,00/orang/tahun,
+                                                                    maksimal 5 (lima) tahun.</li>
+                                                            </ol>
+                                                            <li>Pengajuan klaim beasiswa dilakukan setiap tahun.</li>
+                                                            <li>Bagi anak dari peserta yang belum memasuki usia sekolah
+                                                                sampai dengan sekolah di tingkat dasar pada saat peserta
+                                                                meninggal dunia atau mengalami cacat total tetap,
+                                                                beasiswa diberikan pada saat anak memasuki usia sekolah.
+                                                            </li>
+                                                            <li>Beasiswa berakhir pada saat anak peserta mencapai usia
+                                                                23 (dua puluh tiga) tahun atau menikah atau bekerja.
+                                                            </li>
+                                                        </ol>
+                                                    </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="jkm">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapse-jkm" aria-expanded="false"
+                                    aria-controls="flush-collapse-jkm"> <img src="img/product-icon-jaminan-kematian.svg"
+                                        alt="jaminan-kematian">
+                                    Jaminan Kematian (JKM)
+                                </button>
+                            </h2>
+                            <div id="flush-collapse-jkm" class="accordion-collapse collapse" aria-labelledby="jkm"
+                                data-bs-parent="#jkm">
+                                <div class="accordion-body">
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="deskripsi-jkm">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse-deskripsi-jkm"
+                                                aria-expanded="false" aria-controls="flush-collapse-deskripsi-jkm">
+                                                Deskripsi
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse-deskripsi-jkm" class="accordion-collapse collapse"
+                                            aria-labelledby="deskripsi-jkm" data-bs-parent="#deskripsi-jkm">
+                                            <div class="accordion-body">Manfaat uang tunai yang diberikan kepada ahli
+                                                waris ketika peserta meninggal dunia bukan akibat kecelakaan kerja atau
+                                                penyakit akibat kerja.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="bentuk-jkm">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse-bentuk-jkm"
+                                                aria-expanded="false" aria-controls="flush-collapse-bentuk-jkm">
+                                                Bentuk Manfaat
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse-bentuk-jkm" class="accordion-collapse collapse"
+                                            aria-labelledby="bentuk-jkm" data-bs-parent="#bentuk-jkm">
+                                            <div class="accordion-body">
+                                                Diberikan dalam bentuk uang tunai berupa santunan kematian, santunan
+                                                berkala, biaya pemakaman dan beasiswa pendidikan anak.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="manfaat-jkm">
+                                            <button class="accordion-button collapsed" type="button"
+                                                data-bs-toggle="collapse" data-bs-target="#flush-collapse-manfaat-jkm"
+                                                aria-expanded="false" aria-controls="flush-collapse-manfaat-jkm">
+                                                Manfaat Lengkap
+                                            </button>
+                                        </h2>
+                                        <div id="flush-collapse-manfaat-jkm" class="accordion-collapse collapse"
+                                            aria-labelledby="manfaat-jkm" data-bs-parent="#manfaat-jkm">
+                                            <div class="accordion-body">
+                                                <p>Manfaat JKM diberikan apabila peserta meninggal dunia dalam masa
+                                                    kepesertaan aktif, terdiri dari :</p>
+                                                <ol type="1">
+                                                    <li>Santunan kematian sebesar Rp. 20.000.000,00 (dua puluh juta
+                                                        rupiah);</li>
+                                                    <li>Santunan berkala yang dibayarkan sekaligus sebesar Rp.
+                                                        12.000.000,00 (dua belas juta rupiah);</li>
+                                                    <li>Biaya pemakaman sebesar Rp. 10.000.000,00 (sepuluh juta rupiah);
+                                                        dan</li>
+                                                    <li>Beasiswa untuk paling banyak 2 (dua) orang anak peserta dan
+                                                        diberikan jika peserta telah memiliki masa iur minimal 3 (tiga)
+                                                        tahun dan meninggal dunia bukan akibat kecelakaan kerja atau
+                                                        penyakit akibat dengan ketentuan sebagai berikut :</li>
+                                                    <ol type="a">
+                                                        <li>Diberikan berkala setiap tahun sesuai dengan tingkat
+                                                            pendidikan anak dengan rincian sebagai berikut :</li>
+                                                        <ol type="1">
+                                                            <li>Pendidikan TK sebesar Rp. 1.500.000,00/orang/tahun,
+                                                                maksimal 2 (dua) tahun;</li>
+                                                            <li>Pendidikan SD/sederajat sebesar Rp.
+                                                                1.500.000,00/orang/tahun, maksimal 6 (enam) tahun;</li>
+                                                            <li>Pendidikan SMP/sederajat sebesar Rp.
+                                                                2.000.000,00/orang/tahun, maksimal 3 (tiga) tahun;</li>
+                                                            <li>Pendidikan SMA/sederajat sebesar Rp.
+                                                                3.000.000,00/orang/tahun, maksimal 3 (tiga) tahun;</li>
+                                                            <li>Pendidikan tinggi maksimal Strata 1 (S1) atau pelatihan
+                                                                sebesar Rp. 12.000.000,00/orang/tahun, maksimal 5 (lima)
+                                                                tahun.</li>
+                                                        </ol>
+                                                        <li>Pengajuan klaim beasiswa dilakukan setiap tahun.</li>
+                                                        <li>Bagi anak dari peserta yang belum memasuki usia sekolah
+                                                            sampai dengan sekolah di tingkat dasar pada saat peserta
+                                                            meninggal dunia atau mengalami cacat total tetap, beasiswa
+                                                            diberikan pada saat anak memasuki usia sekolah.</li>
+                                                        <li>Beasiswa berakhir pada saat anak peserta mencapai usia 23
+                                                            (dua puluh tiga) tahun atau menikah atau bekerja.</li>
+                                                    </ol>
+                                                </ol>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-fluid bg-light">
+        <div class="container p-3">
+            <ul
+                class="nav nav-tabs nav-pills flex-column flex-sm-row text-center bg-light border-0 rounded-nav justify-content-center">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#prosedur-layanan">Prosedur Layanan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#dokumen-pendaftaran">Dokumen Pendaftaran</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#perhitungan-iuran">Perhitungan Iuran</a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane container-sm active" id="prosedur-layanan">
+                    <div class="row text-center mt-1">
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center text-start">
+                                <img class="proslay-image" src="img/prosedur-1.png" alt="proslay-1">
+                                <p class="proslay-number">1</p>
+                                <p class="proslay-text">Klik portal layanan pendaftaran di <a class="proslay-link"
+                                        href="form.html">sini</a></p>
+                            </div>
+                            <div class="d-flex align-items-center text-start">
+                                <img class="proslay-image" src="img/prosedur-2.png" alt="proslay-1">
+                                <p class="proslay-number">2</p>
+                                <p class="proslay-text">Masukkan data yang sesuai
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center text-start">
+                                <img class="proslay-image" src="img/prosedur-3.png" alt="proslay-1">
+                                <p class="proslay-number">3</p>
+                                <p class="proslay-text">Pilih paket program yang diinginkan</p>
+                            </div>
+                            <div class="d-flex align-items-center text-start">
+                                <img class="proslay-image" src="img/prosedur-4.png" alt="proslay-1">
+                                <p class="proslay-number">4</p>
+                                <p class="proslay-text">Proses kirim data yang telah diisi</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex align-items-center text-start">
+                                <img class="proslay-image" src="img/prosedur-5.png" alt="proslay-1">
+                                <p class="proslay-number">5</p>
+                                <p class="proslay-text">Petugas kami akan menerima form pendaftaran dan menghubungi anda
+                                </p>
+                            </div>
+                            <div class="d-flex align-items-center text-start">
+                                <img class="proslay-image" src="img/prosedur-6.png" alt="proslay-1">
+                                <p class="proslay-number">6</p>
+                                <p class="proslay-text">Lakukan pembayaran setelah mendapatkan kode iuran melalui
+                                    petugas kami</p>
+                            </div>
+                            <div class="d-flex align-items-center text-start">
+                                <img class="proslay-image" src="img/prosedur-7.png" alt="proslay-1">
+                                <p class="proslay-number">7</p>
+                                <p class="proslay-text">Peserta mendaftar aplikasi JMO dan menerima kartu digital</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane container" id="dokumen-pendaftaran">
+                    <h4>Dokumen Pendaftaran</h4>
+                    <ol type="1">
+                        <li>Memiliki Nomor Induk Kependudukan (NIK) atau Kartu Tanda Penduduk (KTP)</li>
+                        <li>Alamat email aktif</li>
+                        <li>Nomor Handphone aktif</li>
+                    </ol>
+                </div>
+                <div class="tab-pane container" id="perhitungan-iuran">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <div class="mt-3 mb-3">
+                                <h3>Perhitungan Iuran</h3>
+                            </div>
+                            <div class="m-3">
+                                <div class="slideclick1 headingjkk d-flex align-items-center">
+                                    <span class="li-perhitungan">a</span>
+                                    <h6>Jaminan Kecelakaan Kerja</h6>
+                                    <span class="ms-auto">
+                                        <i class="up1 bi bi-chevron-down"></i>
+                                    </span>
+                                </div>
+                                <div class="collapsejkk collapseperhitungan">
+                                    <p class="ms-5">Besaran iuran untuk program JKK adalah mulai dari Rp 10.000 per
+                                        bulan</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="m-3">
+                                <div class="slideclick2 headingjkm d-flex align-items-center">
+                                    <span class="li-perhitungan">b</span>
+                                    <h6>Jaminan Kematian</h6>
+                                    <span class="ms-auto">
+                                        <i class="up2 bi bi-chevron-down"></i>
+                                    </span>
+                                </div>
+                                <div class="collapsejkm collapseperhitungan">
+                                    <p class="ms-5">Besar perhitungan iuran senilai Rp 6.800</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="m-3">
+                                <div class="slideclick3 headingjht d-flex align-items-center">
+                                    <span class="li-perhitungan">c</span>
+                                    <h6>Jaminan Hari Tua</h6>
+                                    <span class="ms-auto">
+                                        <i class="up3 bi bi-chevron-down"></i>
+                                    </span>
+                                </div>
+                                <div class="collapsejht collapseperhitungan">
+                                    <p class="ms-5">Besaran iuran untuk program JKK adalah mulai dari Rp 20.000 per
+                                        bulan</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="m-3">
+                                <div class="slideclick4 headingsimulasi d-flex align-items-center">
+                                    <span class="li-perhitungan">d</span>
+                                    <h6>Simulasi Iuran</h6>
+                                    <span class="ms-auto">
+                                        <i class="up4 bi bi-chevron-down"></i>
+                                    </span>
+                                </div>
+                                <div class="collapsesimulasi collapseperhitungan">
+                                    <p class="ms-5">
+                                    <ol type="1">
+                                        <li>Mengikuti 2 Program (JKK, JKM) : Rp 16.800 per bulan</li>
+                                        <li>Mengikuti 3 Program (JKK, JKM, JHT) : Rp 36.800 per bulan</li>
+                                    </ol>
+                                    </p>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- MANFAAT BPU AKHIR -->
+
+    <!-- FOOTER AWAL -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="col-md-12 call-center">
+                        <div class="text-center mt-4">
+                            <img src="img/logo-call-center-new.png" alt="logo-call-center-new" width="50%">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="ul-footer">
+                        <li class="mb-1 mt-3 fw-bold list-head">Aplikasi</li>
+                        <li class="list-navbar">
+                            <a class="a-navbar" href="https://perisai.bpjs.go.id/">Perisai</a>
+                        </li>
+                        <li class="list-navbar">
+                            <a class="a-navbar" href="https://sipp.bpjsketenagakerjaan.go.id/">SIPP Online</a>
+                        </li>
+                        <li class="list-navbar">
+                            <a class="a-navbar" href="https://eps.bpjsketenagakerjaan.go.id/">EPS Online</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="ul-footer">
+                        <li class="mb-1 mt-3 fw-bold list-head">Manfaat Tambahan</li>
+                        <li class="list-navbar">
+                            <a class="a-navbar" href="#">Rusunawa</a>
+                        </li>
+                        <li class="list-navbar">
+                            <a class="a-navbar" href="#">Perumahan Pekerja</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <ul class="ul-footer">
+                        <li class="mb-1 mt-3 fw-bold list-head">Lainnya</li>
+                        <li class="list-navbar">
+                            <a class="a-navbar" href="#">Struktur Organisasi</a>
+                        </li>
+                        <li class="list-navbar">
+                            <a class="a-navbar" href="#">Formulir</a>
+                        </li>
+                        <li class="list-navbar">
+                            <a class="a-navbar" href="#">F.A.Q</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center mt-5 mb-0 copyright text-white opacity-50">
+                    <p>Copyright © 2022 BPJS Ketenagakerjaan Tangerang Batuceper. All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER AKHIR -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

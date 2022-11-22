@@ -1,0 +1,289 @@
+body {
+  font-family: "Gotham", sans-serif;
+  font-size: 1rem;
+}
+
+/* NAVBAR AWAL */
+.hover-btn {
+  background-color: #226da8;
+  color: #e2edff;
+}
+
+.hover-btn:hover {
+  opacity: 75%;
+  background-color: white;
+  color: black;
+}
+
+.btn-navbar {
+  color: black;
+  border-radius: 1rem;
+}
+
+.btn-navbar:hover {
+  background-color: #dbdbdb;
+  border-radius: 1rem;
+}
+/* NAVBAR AKHIR */
+
+/* CAROUSEL AWAL */
+.web-carousel {
+  display: block;
+}
+
+.mobile-carousel {
+  display: none;
+}
+
+@media (max-width: 640px) and (min-width: 320px) {
+  .web-carousel {
+    display: none;
+  }
+  .mobile-carousel {
+    display: block;
+  }
+}
+
+/* CAROUSEL AKHIR */
+
+/* JUMBOTRON AWAL */
+
+/* JUMBOTRON AKHIR */
+
+/* PROGRAM AWAL */
+.jaminan-list {
+  margin: 10px 0px;
+}
+.jaminan-row {
+  margin: 5px 0;
+}
+.jaminan-images {
+  height: 40px;
+  display: table-cell;
+  margin: 0;
+}
+.jaminan-names {
+  font-size: 13px;
+  height: 45px;
+  text-align: left;
+  display: table-cell;
+  padding: 0 5px;
+  margin: 0;
+  vertical-align: middle;
+}
+.jaminan-names a {
+  font-size: 14px !important;
+  color: #226da8;
+  font-weight: 600;
+  text-decoration: none;
+}
+/* PROGRAM AKHIR */
+
+/* JMO AWAL */
+.bg-light-gray {
+  background-color: #cad9e330;
+}
+
+#JMO .padding-top-jmo {
+  padding-top: 100px;
+}
+
+#JMO .padding-left-jmo {
+  padding-left: 0px;
+}
+
+.padding-top-jmo {
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  #JMO .jmo-width-300 {
+    width: 300px;
+  }
+}
+
+.button-download {
+  display: block;
+  max-width: 230px;
+  max-height: 95px;
+  width: auto;
+  height: auto;
+}
+/* JMO AKHIR */
+
+/* BERITA AWAL */
+.berita-lainnya {
+  color: #226da8;
+  text-decoration: none;
+}
+/* BERITA AKHIR */
+
+/* FOOTER AWAL */
+.footer {
+  background-color: #226da8;
+  background-image: url(/img/footer-super-graf.png);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+}
+
+.call-center {
+  display: block;
+  margin-right: 25px;
+  margin-top: 10px;
+}
+
+.ul-footer {
+  list-style-type: none;
+}
+
+.list-head {
+  color: white;
+  color: #fff501;
+}
+
+.list-navbar .a-navbar {
+  color: white;
+  text-decoration: none;
+}
+
+.a-navbar:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.copyright {
+  font-size: 12px;
+}
+/* FOOTER AKHIR */
+
+/* PENERIMA UPAH AWAL */
+.badge-list {
+  background-color: #226da8;
+  color: white;
+  border-radius: 10px;
+  padding: 3px 8px;
+}
+
+.panel-body {
+  padding: 15px;
+  padding-left: 35px;
+}
+
+.collapse-menu {
+  text-decoration: none;
+  color: gray;
+  font-weight: bold;
+}
+
+.hover-manfaat {
+  text-decoration: none;
+  color: gray;
+}
+
+.proslay-image {
+  width: 75px;
+  margin: 10px;
+}
+
+.proslay-number {
+  margin: 5px;
+  margin-left: 10px;
+}
+
+.proslay-text {
+  margin: 5px;
+}
+
+.proslay-link {
+  text-decoration: none;
+  color: #226da8;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .rounded-nav {
+    border-radius: 50rem !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .rounded-nav .nav-link {
+    border-radius: 50rem !important;
+  }
+}
+
+/* PENERIMA UPAH AKHIR */
+
+/* BERITA AWAL */
+
+.card-body a {
+  text-decoration: none;
+  color: #226da8;
+}
+
+.card-body a:hover {
+  color: black;
+}
+/* BERITA AKHIR */
+
+/* TENTANG KAMI AWAL */
+.visi-misi {
+  color: #226da8;
+}
+
+.ceklist {
+  margin-right: 10px;
+}
+
+.img-visimisi {
+  margin-top: 30%;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* TENTANG KAMI AKHIR */
+
+/* KONTAK AWAL */
+.bg-blue {
+  background-color: #226da8;
+}
+
+.ar-img {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  width: 50%;
+}
+
+.modal-info {
+  color: #226da8;
+}
+
+.modal-list li {
+  list-style-type: none;
+}
+/* KONTAK AKHIR */
+
+.collapseperhitungan {
+  display: none;
+}
+
+.li-perhitungan {
+  background-color: #226da8;
+  color: white;
+  width: 35px;
+  padding-left: 12px;
+  font-size: 16px;
+  border-radius: 10px;
+  margin: 0 10px 0px 0;
+  font-family: GothamBold, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+i.bi {
+  user-select: none;
+}
